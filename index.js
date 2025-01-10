@@ -3,7 +3,7 @@ const path = require("path");
 
 const PATH = path.join(`${__dirname}/data.txt`);
 
-const newLine = "This is the new text to be written";
+const newLine = "This is the new text to be.";
 
 fs.writeFile(PATH, newLine, (error) => {
   if (!error) {
